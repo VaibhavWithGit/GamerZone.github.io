@@ -1,0 +1,42 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+            /* overflow: hidden; */
+        }
+        body{
+            background-image: url(/img/WEL.jpg );
+            background-size: cover;
+        }
+        .wel{
+            margin-top: 500px;
+            font-size: 50px;
+            color: white;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            font-family: Cinzel Decorative;
+            color: rgb(255, 94, 0);
+            transition: 0.3s;
+        }
+        a:hover{
+            text-decoration: none;
+            font-family: Cinzel Decorative;
+            color: rgb(160, 59, 0);
+            font-size: 55px;
+        }
+        .foot{
+        /* background-color: cyan; */
+        color: rgb(255, 128, 0);
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        left: 0px;
+        bottom: 10px;
+    }
+    .fo{
+        font-size: 20px;
+        font-family: raleway;
+        padding: 3px 3px;
+        
+    }

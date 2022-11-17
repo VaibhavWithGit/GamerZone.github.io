@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+}
+body{
+    background-image: url(/img/HOMEP.jpg);
+    background-size: cover;
+}
+.nb{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.ul1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+li a{
+    margin: 10px auto;
+    font-family: didact gothic;
+    color: cyan;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+li a:hover{
+    margin: 10px 20px;
+    font-family: didact gothic;
+    color: cyan;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 7px 12px;
+    border: 3px solid cyan;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.g:hover{
+    background-color: cyan;
+    color: black;
+    font-size: 30px;
+}
+.q{
+    margin: 120px 50px;
+}
+.q1{
+    color: cyan;
+    font-family: cinzel decorative;
+    font-size: 25px;
+}
+.f{
+    font-size: 50px;
+    color: cyan;
+    font-family: cinzel decorative;
+}
+.b a{
+    text-decoration: none;
+    color :cyan;
+    font-size: 17px;
+    font-family: cinzel decorative;
+    margin: auto 55px;
+    padding: 10px 10px;
+    transition: 0.5s;
+    border: 3px solid cyan;
+}
+.b a:hover{  
+    color :black;
+    font-family: cinzel decorative;
+    margin: auto 55px;
+    padding: 10px 10px;
+    background-color: rgba(0, 255, 255, 0.897);
+}
+.foot{
+    background-color: cyan;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+.fo{
+    font-size: 15px;
+    font-family: raleway;
+    padding: 3px 3px;   
+}

@@ -1,0 +1,115 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+            /* overflow: hidden; */
+        }
+        body{
+            background-image: url(/img/MAIN.jpg);
+            background-size: cover;
+        }
+        img{
+            width: 150px;
+        }
+        .cb{
+            margin: 35px 55px;
+            width:90%; 
+            display: flex;
+            flex-direction: row;
+            background-color: rgba(174, 0, 255, 0.589);
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(128, 128, 128, 0.28);
+            border-radius: 25px;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 35px 25px;
+            margin: 35px 22px;
+            background-color: rgba(104, 136, 85, 0.384);
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+        .box:hover{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 45px 35px;
+            margin: 35px 22px;
+            background-color: rgba(136, 189, 105, 0.527);
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px  ;
+        }
+        .t{
+            font-size: 25px;
+            color: rgb(153, 255, 0);
+            font-family: Cinzel Decorative;
+        }
+        p a{
+            text-decoration: none;
+            color: rgb(153, 255, 0);
+            background-color: black;
+            padding: 10px 10px;
+            font-size: 25px;
+            border-radius: 10px;
+            transition: 0.3s;
+            font-family: didact gothic;
+        }
+        p a:hover{
+            text-decoration: none;
+            color: black;
+            background-color: rgb(153, 255, 0);
+            padding: 15px 15px;
+            font-size: 25px;
+            border-radius: 10px;
+        }
+        .h a{
+            margin: 0px 700px;
+            color: black;
+            background-color: rgb(153, 255, 0);
+            padding: 10px 10px;
+            font-size: 23px;
+            font-family: didact gothic;
+            text-decoration: none;
+            font-weight: 600;
+            /* border: 2px solid black; */
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+        .h a:hover{
+            /* margin: 0px 640px; */
+            color: rgb(153, 255, 0);
+            background-color: BLACK;
+            padding: 10px 15px;
+            font-size: 25px;
+            font-family: didact gothic;
+            text-decoration: none;
+            font-weight: 600;
+            border: 2px solid rgb(153, 255, 0);
+            border-radius: 15px;
+        }
+        .foot{
+        background-color: rgb(153, 255, 0);
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+    }
+    .fo{
+        font-size: 15px;
+        font-family: trebuchet ms;
+        padding: 3px 3px;
+        
+    }
+    h3{
+        text-align: center;
+        color:rgb(153, 255, 0);
+        font-family: Cinzel Decorative;
+            font-size: 40px;
+            margin: 10px 0px;
+    }

@@ -1,0 +1,85 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+            /* overflow: hidden; */
+        }
+        body{
+            background-image: url(/img/LOG.jpg);
+            background-size: cover;
+        }
+        .cb{
+            margin: 50px 750px;
+            padding: 25px 0px;
+            /* border: 2px solid orange; */
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .box{
+            padding: 50px 70px;
+            border: 2px solid orange;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px  0px 25px 0px  ;
+        }
+        .f{
+            color: orange;
+            font-size: 30px;
+            font-family: didact gothic;
+        }
+        a{
+            margin: 50px 10px;
+            text-decoration: none;
+            font-size: 22px;
+            color:orange;
+            font-family: didact gothic;
+            background-color: black;
+            border: 2px solid orange;
+            padding: 10px 10px;
+            border-radius: 15px;
+            transition: 0.2s;
+        }
+        a:hover{
+            margin: 50px 10px;
+            text-decoration: none;
+            font-size: 25px;
+            color:black;
+            font-family: didact gothic;
+            background-color: orange;
+            border: 2px solid orange;
+            padding: 15px 15px;
+            border-radius: 15px;
+        }
+        .log{
+            display: inline;
+            color: orange;
+            font-family: cinzel decorative;
+            font-size: 40px;
+            /* margin: auto 800px; */
+        }
+        input{
+            font-family: didact gothic;
+            background-color: black;
+            padding: 5px 50px;
+            color:orange
+        }
+        ::placeholder{
+            color:orange
+        }
+        .foot{
+        background-color: orange;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+    }
+    .fo{
+        font-size: 15px;
+        font-family: trebuchet ms;
+        padding: 3px 3px;
+        
+    }
