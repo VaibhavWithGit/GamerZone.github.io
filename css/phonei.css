@@ -4,13 +4,14 @@
     /* overflow: hidden; */
 }
 body{
-    background-image: url(https://vaibhavwithgit.github.io/GamerZone.github.io/img/WELP.jpg);
+    /* background-image: url(https://vaibhavwithgit.github.io/GamerZone.github.io/img/WELP2.jpg); */
+    background-image: url(/img/WELP2.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;
 }
 .wel{ 
     margin-top: 650px;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     text-align: center;
 }
