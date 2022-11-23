@@ -5,7 +5,7 @@
 }
 body{
     background-image: url(https://vaibhavwithgit.github.io/GamerZone.github.io/img/WELP.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
 }
 .wel{ 
